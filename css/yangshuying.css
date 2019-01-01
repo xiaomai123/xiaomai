@@ -96,7 +96,7 @@ a{
     cursor: pointer;
 	}
 	
-	.user-p{
+	.user-p , .user-d , .user-e {
 	
 		float: right;
 		width: 26px;
@@ -105,9 +105,9 @@ a{
 		cursor: pointer;
 	}
 	
-	.span-user{
+	.span-user , .span-download{
 		
-	display: inline-block;
+	
     vertical-align: middle;
     color: #111;
     cursor: pointer;
@@ -115,8 +115,10 @@ a{
 		}
 		
 	.login-user{
+		width: 40px;
+	
 	float: left;
-	margin-left: 490px;
+	margin-left: 485px;
     margin-top: -25px;
 	font-size: 16px;
 		}
@@ -155,7 +157,7 @@ a{
 		border-style: solid;
 		position: absolute;
 		top:-2.5px;
-		left:44px;
+		left:43px;
 		transform: rotate(135deg);
 		border-bottom: 1px solid #F2F2F2;	
 	}
@@ -165,4 +167,66 @@ a{
 	}
 	.login-user:hover .list-login{
 		display: block;
+		
+		
+	}
+	.box-download{
+		width: 80px;
+				
+		float: left;
+		margin-left: 560px;
+		margin-top: -25px;
+		font-size: 16px;
+	
+		
+	}
+	.user-d{
+		position: absolute;
+		top: 45px;
+		right:-80px ;
+	}
+	.span-download{
+		position: absolute;
+		top: 25px;
+		right: 195px;
+	}
+	.download-picture{
+		    width: 80px;
+    height: 80px;
+   display: none;
+    position: absolute;
+    top: 60px;
+    right: 175px;
+    z-index: 999;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 1px -1px 1px #ccc;
+	}
+	.download-picture img{
+		width: 100%;
+	}
+	.box-download:hover .download-picture{
+		display: block;
+	}
+	.download-picture:before{
+		position: absolute;
+    margin-top: -10px;
+    margin-left: 35px;
+    content: '';
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(-45deg);
+    box-shadow: 1px -1px 1px #ccc;
+	}
+	
+	.user-e{
+		position: absolute;
+		right: -160px;
+	}
+	.span-english{
+		position: absolute;
+		top: 25px;
+		right: 85px;
+		
 	}
