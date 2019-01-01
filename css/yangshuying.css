@@ -223,10 +223,12 @@ a{
 	.user-e{
 		position: absolute;
 		right: -160px;
+		
 	}
 	.span-english{
 		position: absolute;
 		top: 25px;
 		right: 85px;
-		
+		cursor: pointer;
+
 	}
