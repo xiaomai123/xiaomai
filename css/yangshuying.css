@@ -150,12 +150,19 @@ a{
 	.list-login:before
 	{
 		content: '';/* 内容为空*/
-		border-color: transparent transparent black black;
-		border-width: 5px;
+		border-color: transparent transparent white white;
+		border-width: 10px;
 		border-style: solid;
 		position: absolute;
-		left:-7px;
+		top:-2.5px;
+		left:44px;
 		transform: rotate(135deg);
-		border-radius: 3px;
+		border-bottom: 1px solid #F2F2F2;	
 	}
-	
+	.list-login{
+		display: none;
+		margin-left: -50px;
+	}
+	.login-user:hover .list-login{
+		display: block;
+	}
