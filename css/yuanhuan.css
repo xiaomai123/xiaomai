@@ -1,0 +1,176 @@
+
+.hezi1{
+	position:absolute;
+	width: 1150px;
+	height:416px;
+    border: 1px solid gainsboro;
+    padding: 25px;
+    margin-left: 75px;
+
+}
+.hezi2{
+	position:absolute;
+	width: 1150px;
+	height:416px;
+    border: 1px solid gainsboro;
+    padding: 25px;
+    margin-left: 75px;
+	margin-top: 492px;
+}
+.hezi3{
+	position:absolute;
+	width: 1150px;
+	height:416px;
+    border: 1px solid gainsboro;
+    padding: 25px;
+    margin-left: 75px;
+	margin-top: 982px;
+}
+.hezi4{
+	position:absolute;
+	width: 1150px;
+	height:416px;
+    border: 1px solid gainsboro;
+    padding: 25px;
+    margin-left: 75px;
+	margin-top: 1474px;
+}
+.biaoti{
+  font-size:25px;
+  float: left;
+}
+.biaotis a{
+  color:gray;
+  float:right;
+  text-decoration: none;
+}
+.datu{
+	position: absolute;
+	margin-left: 22px;
+	background: url(../images/index/c-1.jpg);
+	top: 75px;
+	left: 3px
+}
+
+.xiaotu1{
+	position:absolute;
+	left: 315px;
+	top:75px;
+}
+.xiaotu1 ul{
+	float: right;
+    top: -17px;
+    right: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+.xiaotu2{
+	position:absolute;
+	left: 600px;
+	top:75px;
+}
+.xiaotu2 ul{
+	float: right;
+    top: -17px;
+    right: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.xiaotu3{
+	position:absolute;
+	left: 863px;
+	top:75px;
+}
+.xiaotu3 ul{
+	float: right;
+    top: -17px;
+    right: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.xiaotu4{
+	position: absolute;
+    top: 279px;
+    left: 316px;
+}
+
+.xiaotu4 ul{
+	float: right;/* 小图三行衔接*/
+	top: -17px;
+	right: 20px;
+	position: relative;
+	text-decoration: none;
+	list-style: none;
+}
+.xiaotu5{
+	position: absolute;
+    top: 279px;
+    left: 600px;
+}
+
+.xiaotu5 ul{
+	float: right;/* 小图三行衔接*/
+	top: -17px;
+	right: 20px;
+	position: relative;
+	text-decoration: none;
+	list-style: none;
+}
+.xiaotu6{
+	position: absolute;
+    top: 279px;
+    left: 863px;
+}
+
+.xiaotu6 ul{
+	float: right;/* 小图三行衔接*/
+	top: -17px;
+	right: 20px;
+	position: relative;
+	text-decoration: none;
+	list-style: none;
+}
+
+.t1{
+	color: black;
+	    position: relative;
+    top: 16px;
+    left: 40px;
+}
+
+.t2{
+	top: 34px; 
+	left: 40px;
+	position: relative;
+	color: #808080;
+	font-size: 2px;
+}
+.t3{
+	position: relative;
+	top: 123px;
+	left: 40px;
+	color: deeppink;
+} 
+.times{
+	top:70px;
+	left:40px;
+	position: absolute;
+	color:#808080;
+	font-size: 2px;
+}
+.t1:hover
+{ 
+  color: deeppink;
+}
+.t2:hover
+{ 
+  color: deeppink;
+}
+.times:hover{
+  color: deeppink;
+}
