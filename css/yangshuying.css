@@ -134,6 +134,7 @@ a{
       border-radius: 2px;
 	 
 			}
+			
 	.list1{
 	width: 100%;
     height: 50px;
@@ -164,10 +165,11 @@ a{
 	.list-login{
 		display: none;
 		margin-left: -50px;
+		position: absolute;
+		z-index: 999;
 	}
 	.login-user:hover .list-login{
 		display: block;
-		
 		
 	}
 	.box-download{
