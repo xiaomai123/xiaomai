@@ -102,9 +102,9 @@ a:hover {
 	box-shadow: 1px -1px 1px #ccc
 }
 
-.w1200 {
+.w120 {
 	width: 1200px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 blockquote,
@@ -683,10 +683,10 @@ img {
 
 .category__icon {
 	display: block;
-	width: 48px;
-	height: 48px;
-	margin: 0 auto;
-	background: url(images/index/1.png) no-repeat;
+	width: 1200px;
+	height: 100px;
+	margin:-10px 0;
+	background: url(../images/index/1.png) no-repeat;
 	background-size: 100% auto;
 }
 
