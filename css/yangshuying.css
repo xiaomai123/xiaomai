@@ -164,6 +164,8 @@ a{
 	.list-login{
 		display: none;
 		margin-left: -50px;
+		position: absolute;
+		z-index: 999;
 	}
 	.login-user:hover .list-login{
 		display: block;
